@@ -1,0 +1,32 @@
+/* Write your CSS here */
+* {
+  margin: 0px;
+}
+
+.app-container {
+  background-color: #93c5fd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card-container {
+  width: 400px;
+  height: 240px;
+  background-color: #ffffff;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.input-el-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  justify-content: flex-start;
+}
